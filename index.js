@@ -21,7 +21,7 @@ for(let i = 0; i < list_items.length; i++) {
         }, 0);
     });
 
-    for (let j= 0; j < list_items.length; j++){
+    for (let j= 0; j < lists.length; j++){
         const list = lists[j];
         
         list.addEventListener('dragover', function (e) {
